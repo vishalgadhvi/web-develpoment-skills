@@ -1,0 +1,100 @@
+<html>
+
+<head>
+<title>geek creativity</title>
+<link href="style.css" rel="stylesheet" type="text/css" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if                                                         *********** fontfamily : 'Satisfy', cursive***********
+  });
+});
+</script>
+<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">  
+
+</head>
+
+<body>
+
+ <div class="navbar">
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#home">Home</a>
+            
+            
+          </div>
+      
+
+<div class="container0" id="home">
+  <div class="parallax0">
+
+    
+<h1>ARE YOU READY?</h1>
+ <div class="button">
+ <a href="" class="btn btn-one">Watch Video</a>
+<a href="" class="btn btn-two">Explore More</a>
+    
+
+  </div>
+
+  
+</div>
+
+
+
+<P>
+  Photography is an art of vision, you dont need eyes you need heart.
+  </P>
+
+
+
+</div>
+  <div class="container" id="services">
+  
+
+  <div class="parallax">
+
+
+  </div>
+<P>
+  Photography takes an instant out of time, altering life by holding it still.
+  </P>
+
+</div>
+
+<div class="container2" id="about">
+
+	<div class="parallax2"></div>
+	
+</div>
+
+
+
+
+
+</body>
+
+
+
+
+</html>

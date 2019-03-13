@@ -1,0 +1,46 @@
+*{
+
+  margin:0;
+  padding:0;
+  
+}
+
+
+header{
+  
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(BCK3.jpg);
+  background-size:cover;
+  height:100vh;
+  
+  background-position:center;
+
+
+}
+
+.main-nav
+{
+
+float:right;
+list-style:none;
+margin-top:30px;
+
+
+}
+
+.main-nav li
+{
+border: 20px;
+border-color:white;
+background-color:black;
+display : inline-block;
+}
+
+
+.main-nav li a
+{
+color:white;
+text-decoration:none;
+padding: 5px 20px;
+font-family:"roboto",san-serif; 
+font-size:15px;
+}
